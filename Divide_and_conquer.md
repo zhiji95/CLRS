@@ -43,7 +43,7 @@ on the nonnegative integers by the recurrence:
 
 T(n) = aT(n/b)+f(n)
 
-1. $f(n) = O(n^{log_b{a-\epsilon}})$ : $T(n) = \Theta(n^{log_b{a-\epsilon}})$
+1. $ f(n) = O(n^{log_b{a-\epsilon}})$ : $T(n) = \Theta(n^{log_b{a-\epsilon}}) $
 2. $f(n) = \Theta(n^{log_b{a}})$: $T(n) = \Theta(n^{log_b{a-\epsilon}}lg{n})$
 3. $f(n) = \Omega(n^{log_b{a+\epsilon}})$, and if af(n/b) <= cf(n) for c < 1: $T(n) = \Theta(f(n))$
 
